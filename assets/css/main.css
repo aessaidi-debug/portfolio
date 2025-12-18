@@ -3234,7 +3234,7 @@ input, select, textarea {
 			width: 100%;
 			height: 100%;
 			background-color: #212931;
-			background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/background.jpg");
+			background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/background.jpg.jpeg");
 			background-size: auto,								auto,														cover;
 			background-position: center,								center,														center center;
 			background-repeat: repeat,								no-repeat,													no-repeat;
@@ -3312,6 +3312,19 @@ input, select, textarea {
 		z-index: 1;
 		min-height: 100vh;
 	}
+
+		.intro-avatar {
+			margin-bottom: 2rem;
+		}
+
+			.intro-avatar img {
+				width: 180px;
+				height: 180px;
+				border-radius: 50%;
+				object-fit: cover;
+				border: 4px solid rgba(255, 255, 255, 0.85);
+				box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+			}
 
 		#intro input, #intro select, #intro textarea {
 			color: #ffffff;
